@@ -42,4 +42,44 @@ console.log(value.substr(2,5));
 const val="anjalikkk";
 console.log(val.slice(2,5));
 
-//
+//replace
+function replacestring(str,target,replacmnet)
+{
+  console.log("original string",str);
+  console.log("after replace",str.replace(target,replacmnet));
+}
+replacestring("anjali ahlawat","ahlawat","anju");
+
+//split
+
+function splitstring(str,seprate)
+{
+    console.log("original string",str);
+    console.log("after split",str.split(seprate));
+}
+splitstring("hello anjali","hello");
+
+//trim
+function trimstring(str)
+{
+    console.log("original string",str);
+    console.log("after trim",str.trim());
+}
+trimstring("     anjali ahlawat        ");
+
+//touppercase
+
+function touppercase(str)
+{
+    console.log("original string",str);
+    console.log("afetr touppercase",str.toUpperCase());
+}
+touppercase("anjali");
+
+//tolowercase
+function tolowercase(str)
+{
+    console.log("original string",str);
+    console.log("after tolowercase",str.toLowerCase());
+}
+tolowercase("HEELO WORLD");
