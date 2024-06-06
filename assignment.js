@@ -86,9 +86,9 @@
 
 //write a program that reverse all the element of an array
 
-const arr=[20,31,12,11];
-let n=arr.length;
-for( let i=n-1;i>=0;i--)
-    {
-        console.log(arr[i]);
-    }
+// const arr=[20,31,12,11];
+// let n=arr.length;
+// for( let i=n-1;i>=0;i--)
+//     {
+//         console.log(arr[i]);
+//     }
