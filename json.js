@@ -1,7 +1,7 @@
 //JSON.parse() parses a JSON string and converts it into a JavaScript object.
 
 
-const users=`{"name":"anjali","age":24,"gender":"male","skills":["java","c","c++"]}`;
+const users=`{"name":"anjali","age":24,"gender":"female","skills":["java","c","c++"]}`;
 const user=JSON.parse(users);
 console.log(user.name);
 console.log(user.skills);

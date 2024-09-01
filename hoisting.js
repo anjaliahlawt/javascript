@@ -3,12 +3,12 @@ console.log(x);
 var x=3;
 
 //using let
-// console.log(y); 
-// let y = 10;
+console.log(y); 
+let y = 10;
 
 //using const
-// console.log(z); 
-// const z = 15;
+console.log(z); 
+const z = 15;
 
 //function hoisting
 //1. Function Declarations

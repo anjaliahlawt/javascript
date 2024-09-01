@@ -2,7 +2,7 @@
 
 const myPromise=new Promise((resolve,reject)=>
     {
-      let sucess=false;
+      let sucess=true;
       if(sucess)
         {
             resolve("operation succesfully");
@@ -98,7 +98,7 @@ const myPromise=new Promise((resolve,reject)=>
             .catch((error) => {
                 console.error(error);
             });
-//async keyword used 
+// //async keyword used 
 
 async function data()
 {
@@ -127,3 +127,17 @@ async function data1()
     console.log(result);
 }
 data1();
+
+//Promise.all() is a powerful feature in JavaScript that allows you to handle multiple asynchronous operations concurrently. It takes an array of promises and returns a single promise that resolves when all of the promises in the array have resolved, or rejects if any of the promises reject.
+
+const promise1= Promise.resolve("hello");
+const promise2= Promise.resolve("anjali");
+Promise.all([promise1,promise2])
+.then((result)=>
+{
+    console.log(result);
+})
+.catch((error)=>
+    {
+        console.log(error);
+    });
